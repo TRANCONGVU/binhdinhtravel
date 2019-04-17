@@ -1038,6 +1038,10 @@ body {
     float: right;
     display: block;
   }
+  .vnt-logo-left{
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1052,6 +1056,7 @@ body {
     display: block;
     text-align: left;
   }
+
 }
 @media screen and (max-width: 320px){
     #vnt-container {
@@ -1130,7 +1135,7 @@ body {
 @media screen and (max-width: 768px){
     #vnt-container {
         max-width: 768px;
-        min-width: 426px;
+        
     }
     .vnt-menu-tool {
         display: none;

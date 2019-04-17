@@ -66,6 +66,74 @@
 			</div>
 			<div class="vnt-header-top">
 				<div class="wrapper">
+
+
+
+					<div class="vnt-logo-left">
+						<a onmousedown="return rwt(this,'advertise',3)" href='home.html' target='_self' title=''  ><img  src='vnt_upload/weblink/logobidi.png' width='324' alt=''  class='png' /></a>
+					</div>
+					<div class="vnt-menu-tool">
+						<div class="vnt-menutop">
+							<ul id="menu-horizontal">
+								<li ><a href="home.html"  class="home" target="_self"><i class="fa fa-home"></i></a></li>
+								<li ><a href="diem-du-lich.html"  target="_self">Điểm du lịch</a><ul class="submenu"><li><a href="gioi-thieu-gia-lai.html" target="_self"   ><span>Giới thiệu Bình Định</span></a></li><li><a href="thang-canh.html" target="_self"   ><span>Thắng cảnh</span></a></li><li><a href="di-tich-van-hoa-lich-su.html" target="_self"   ><span>Di tích văn hóa - Lịch sử</span></a></li><li><a href="lang-nghe.html" target="_self"   ><span>Làng nghề</span></a></li><li><a href="le-hoi.html" target="_self"   ><span>Lễ hội</span></a></li><li><a href="mua-sam.html" target="_self"   ><span>Mua sắm</span></a></li></ul></li><li class="current"><a href="am-thuc.html"  target="_self">Ẩm thực</a></li><li ><a href="tour.html"  target="_self">Tour</a></li><li ><a href="khach-san.html"  target="_self">Khách sạn</a></li><li ><a href="tin-tuc.html"  target="_self">Tin tức - Sự kiện</a></li><li ><a href="lien-he.html"  target="_self">Liên hệ</a></li>z</ul>
+						</div>
+						<div class="vnt-tool">
+							<div class="vnt-search">
+								<!--===BEGIN: FORM SEARCH==-->
+								<div class="formsearch">
+									
+<script language="javascript" >
+	function check_search(f)
+	{
+		var key_default = "Từ khóa" ;
+		var keyword = f.keyword.value;		
+		var key_len = f.keyword.value.length;
+		if( (keyword==key_default) || (keyword=='') )		{
+			alert("Vui lòng nhập từ khóa");
+			f.keyword.focus();
+			return false;
+		}
+		if( key_len<2 ){
+			alert("Từ khóa tới thiểu là 2 ký tự");
+			f.keyword.focus();
+			return false;
+		} 
+		return true;
+	}	
+	
+</script>
+<form id="formsearch" name="formSearch" method="POST" action="#" class="box_search">
+	<button id="do_submit" name="do_submit" type="submit" class="btn" value="" ><span ></span></button>
+	<input name="keyword" id="keyword" type="text" class="text_search form-control" placeholder="Vui lòng nhập từ khóa" value="" />
+	<input name="do_search" value="1" type="hidden">
+	<div class="clear"></div>
+</form>
+
+								</div>
+								<!--===END: FORM SEARCH==-->
+							</div>
+							<div class="vnt-langues">
+								<div class="vl-title">
+									<ul><img src="vnt_upload/lang/ln-vn.png"><span>vn</span></ul>
+								</div>
+								<div class="vl-content">
+									<ul><li><a href="am-thuc.html" class='current' ><img src="vnt_upload/lang/ln-vn.png"><span>Tiếng Việt</span></a></li><li><a href="en/cuisine.html"  ><img src="vnt_upload/lang/ln-en.png"><span>English</span></a></li></ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="vnt-logo-right">
+						<a onmousedown="return rwt(this,'advertise',5)" href='http://' target='_blank' title=''  ><img  src='vnt_upload/weblink/logo-dulich.png' width='328' alt=''  class='png' /></a>
+					</div>
+					<div class="clear"></div>
+			
+
+
+
+
 					<div class="topnav" id="myTopnav">
 					  <a href="#home" class="active">Home</a>
 					  <a href="#news">News</a>
