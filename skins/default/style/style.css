@@ -122,6 +122,7 @@ a:active{
 .vnt-menutop > ul > li > a.home {
     width: 50px;
     padding: 15px;
+    background: #c8234d;
 }
 .vnt-menutop > ul > li > a.home:after{
     display: none;
@@ -130,7 +131,7 @@ a:active{
     background: #1b2c36;
 }
 .vnt-menutop > ul > li.current > a{
-    background: #c8234d;
+    background: none;
 }
 .vnt-menutop > ul > li > a > i{
     font-size: 16px;
@@ -992,4 +993,91 @@ a:active{
     -webkit-text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     -moz-text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.topnav{
+    opacity: 0.8;
+}
+@media screen and (max-width: 320px){
+    #vnt-container {
+        max-width: 320px;
+        min-width: 180px;
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+    .vnt-logo-right{
+        display: none;
+    }
+    #vnt-main{
+        width: auto;
+    }
+    .i-content{
+        width: 315px;
+    }
+    .fixed_menu{
+        display:none;
+    }
+    #vnt-sidebar{
+        float: left;
+    }
+    .i-content{
+        width: 320px;
+    }
+
+}
+@media screen and (max-width: 375px){
+    #vnt-container {
+        max-width: 375px;
+        min-width: 321px;
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+    .vnt-logo-right{
+        display: none;
+    }
+    #vnt-main{
+        width: auto;
+    }
+    .i-content{
+        width: 375px;
+    }
+    .fixed_menu{
+        display:none;
+    }
+
+}
+@media screen and (max-width: 425px){
+    #vnt-container {
+        max-width: 425px;
+        min-width: 376px;
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+    #vnt-main{
+        width: auto;
+    }
+    .i-content{
+        width: 375px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    #vnt-container {
+        max-width: 768px;
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+    #vnt-main{
+        width: ;
+    }
+    .i-content{
+        width: 426px;
+    }
+    .i-image img{
+        width: 100%;
+    }
 }
