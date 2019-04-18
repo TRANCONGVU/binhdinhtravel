@@ -78,7 +78,7 @@
 }
 .grid_hotel .item .i-desc{
     float: right;
-    width: 880px;
+    width: 100%;
 }
 .grid_hotel .item .i-desc .wrap-desc{
     width: 580px;
@@ -778,4 +778,12 @@
 }
 .div_btn_comment {
 	padding-top:10px;
+}
+
+
+}
+@media only screen and (max-width: 320px) { 
+       .i-content{
+            display: none;
+       }
 }
