@@ -30,7 +30,7 @@
 }
 .grid_about_banner .item .i-desc{
     position: absolute;
-    bottom: 0;
+    bottom: -25px;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -141,10 +141,7 @@
     filter: alpha(opacity=100);
     opacity: 1;
 }
-.grid_about .item .i-desc{
-    width: 580px;
-    float: right;
-}
+
 .grid_about .item .i-desc .i-title{
     font-size: 16px;
     line-height: 24px;

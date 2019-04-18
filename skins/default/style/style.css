@@ -9,8 +9,7 @@ body{
 }
 #vnt-container{
     width: 100%;
-    min-width:  1200px;
-    max-width: 1920px;
+    max-width: 2560px;
     margin: 0 auto;
 }
 .wrapper{
@@ -122,7 +121,6 @@ a:active{
 .vnt-menutop > ul > li > a.home {
     width: 50px;
     padding: 15px;
-    background: #c8234d;
 }
 .vnt-menutop > ul > li > a.home:after{
     display: none;
@@ -131,7 +129,7 @@ a:active{
     background: #1b2c36;
 }
 .vnt-menutop > ul > li.current > a{
-    background: none;
+    background: #c8234d;
 }
 .vnt-menutop > ul > li > a > i{
     font-size: 16px;
@@ -570,6 +568,9 @@ a:active{
 .box_adv .node{
     margin-bottom: 10px;
 }
+.box_adv .node img{
+    width: 100%;
+}
 /*==END: CONTENT==*/
 /*==BEGIN: FOOTER==*/
 #vnt-footer{
@@ -994,18 +995,10 @@ a:active{
     -moz-text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
-
-.topnav{
-    opacity: 0.8;
-}
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #333;
+  opacity: 0.9;
 }
 
 .topnav a {
@@ -1031,17 +1024,12 @@ body {
 .topnav .icon {
   display: none;
 }
-
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-  .vnt-logo-left{
-    display: none;
-  }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -1056,100 +1044,200 @@ body {
     display: block;
     text-align: left;
   }
-
 }
-@media screen and (max-width: 320px){
+
+
+@media only screen and (max-width: 320px){
     #vnt-container {
         max-width: 320px;
-        min-width: 180px;
+       
     }
     .vnt-menu-tool {
         display: none;
     }
-    .vnt-logo-right{
+    .vnt-logo-left{
         display: none;
     }
-    #vnt-main{
-        width: auto;
+    .vnt-logo-right {
+        display: none;
     }
-    .i-content{
+    h2 {
+        font-size:  60%;
+    }
+    .i-desc{
+        bottom: -25px;
+    }
+
+    #vnt-main {
         width: 320px;
     }
-    .fixed_menu{
-        display:none;
+    .grid_about{
+        margin-left: 10px;
     }
     #vnt-sidebar{
         float: left;
+        margin-left: 10px;
     }
-    .i-content{
-        width: 320px;
-    }
-    #myTopnav{
-        width: 320px;
-    }
-
 }
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px) and (min-width: 321px){
     #vnt-container {
         max-width: 375px;
-        min-width: 321px;
-    }
-    .vnt-menu-tool {
-        display: none;
-    }
-    .vnt-logo-right{
-        display: none;
-    }
-    #vnt-main{
-        width: auto;
-    }
-    .i-content{
-        width: 375px;
-    }
-    .fixed_menu{
-        display:none;
-    }
-     #myTopnav{
-        width: 320px;
-    
-}
-@media screen and (max-width: 425px){
-    #vnt-container {
-        max-width: 425px;
-        min-width: 376px;
-    }
-    .vnt-menu-tool {
-        display: none;
-    }
-    #vnt-main{
-        width: auto;
-    }
-    .i-content{
-        width: 375px;
-    }
-     #myTopnav{
-        width: 320px;
-    
-
-}
-@media screen and (max-width: 768px){
-    #vnt-container {
-        max-width: 768px;
         
     }
     .vnt-menu-tool {
         display: none;
     }
-    #vnt-main{
-        width: ;
+        .vnt-logo-left{
+        display: none;
     }
-    .i-content{
-        width: 320px;
+    .vnt-logo-right {
+        display: none;
     }
-    .i-image img{
-        width: 100%;
+    .i-desc{
+        bottom: -25px;
     }
-     #myTopnav{
-        width: 320px;
+
+    #vnt-main {
+        width: 375px;
+    }
+    .grid_about{
+        margin-left: 10px;
+    }
+    #vnt-sidebar{
+        float: left;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 376px){
+    #vnt-container {
+        max-width: 425px;
+      
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+        .vnt-logo-left{
+        display: none;
+    }
+    .vnt-logo-right {
+        display: none;
+    }
+     #vnt-main {
+        width: 425px;
+        float: left;
+        margin-left: 10px;
+    }
+    .grid_about{
+        
+    }
+    #vnt-sidebar{
+        width: 375px;
+        float: left;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    #vnt-container {
+        max-width: 768px;
+       
+       
+    }
+    .vnt-menu-tool {
+        display: none;
+    }
+        .vnt-logo-left{
+        display: none;
+    }
+    .vnt-logo-right {
+        display: none;
+    }
+     #vnt-main {
+        width: 768px;
+    }
+    .grid_about{
+        margin-left: 10px;
+    }
+    #vnt-sidebar{
+        float: left;
+        margin-left: 10px;
+    }
+   
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    #vnt-container {
+        max-width: 1024px;
+       
+        
+    }
+    .vnt-menu-tool {
+        margin-left: 40px;
+    }
+    .vnt-logo-left{
+        display: none;
+    }
+    .vnt-logo-right{
+        display: none;
+    }
+     .topnav{
+        display: none;
+    }
+    /*am thuc*/
+     #vnt-main {
+        width: 1024px;
+    }
+    .grid_about{
+        margin-left: 10px;
+    }
+    #vnt-sidebar{
+        float: left;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1200px)  and (min-width: 1025px){
+    #vnt-container {
+        max-width: 1200px;
+    }
+    .vnt-logo-right{
+        display: none;
+
+    }   
+    
+    
+     .topnav{
+        display: none;
+    }
+     /*am thuc*/
+     #vnt-main {
+        width: 1200px;
+    }
+    .grid_about{
+        margin-left: 10px;
+    }
+    #vnt-sidebar{
+        float: left;
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (max-width: 1440px)  and (min-width: 1200px){
+    #vnt-container {
+        max-width: 1440px;
+       
+       
+    }
+     .topnav{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 2560px) and (min-width: 1441px){
+    #vnt-container {
+        max-width: 2506px;
+        
+    }
+     .topnav{
+        display: none;
+    }
     
 }
