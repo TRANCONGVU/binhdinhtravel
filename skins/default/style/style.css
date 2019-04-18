@@ -577,7 +577,10 @@ a:active{
     background: #222222;
     color: #999999;
 }
+
+
 .menu-footer{
+    background-color: white;
     background: #292929;
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.75);
@@ -1024,7 +1027,27 @@ a:active{
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 768px) {
+
+.content-left {
+    float: left;
+    width: 75%;
+    
+}
+.content-right  {
+    float: right;
+    width: 25%;
+    background-color: red;
+   
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) and (min-width: 100px){
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -1032,7 +1055,7 @@ a:active{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 100px){
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -1071,12 +1094,19 @@ a:active{
     #vnt-main {
         width: 320px;
     }
+
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
         float: left;
         margin-left: 10px;
+    }
+    .page_search{
+        margin-left: 10px;
+    }
+    #menu-footer{
+    background-color: white;
     }
 }
 @media only screen and (max-width: 375px) and (min-width: 321px){
@@ -1101,11 +1131,18 @@ a:active{
         width: 375px;
     }
     .grid_about{
-        margin-left: 10px;
+        margin-left: 20px;
     }
     #vnt-sidebar{
         float: left;
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+    .page_search{
+        margin-left: 20px;
+    }
+
+     #menu-footer{
+    background-color: white;
     }
 }
 @media only screen and (max-width: 425px) and (min-width: 376px){
@@ -1131,9 +1168,12 @@ a:active{
         
     }
     #vnt-sidebar{
-        width: 375px;
+        width: 425px;
         float: left;
         margin-left: 20px;
+    }
+    #menu-footer{
+    background-color: white;
     }
 }
 
@@ -1153,14 +1193,18 @@ a:active{
         display: none;
     }
      #vnt-main {
-        width: 768px;
+        width: 70%;
     }
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
-        float: left;
+        float: right;
+        width: 25%;
         margin-left: 10px;
+    }
+    #menu-footer{
+    background-color: white;
     }
    
 }
@@ -1171,7 +1215,8 @@ a:active{
         
     }
     .vnt-menu-tool {
-        margin-left: 40px;
+        width: 70%;
+       
     }
     .vnt-logo-left{
         display: none;
@@ -1184,14 +1229,18 @@ a:active{
     }
     /*am thuc*/
      #vnt-main {
-        width: 1024px;
+        width: 70%;
     }
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
-        float: left;
-        margin-left: 10px;
+        width: 25%;
+        float: right;
+       
+    }
+    #menu-footer{
+    background-color: white;
     }
 }
 @media only screen and (max-width: 1200px)  and (min-width: 1025px){
@@ -1203,20 +1252,22 @@ a:active{
 
     }   
     
-    
      .topnav{
         display: none;
     }
      /*am thuc*/
      #vnt-main {
-        width: 1200px;
+        width: 70%;
     }
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
-        float: left;
-        margin-left: 10px;
+       width: 25%;
+       float: right;
+    }
+     #menu-footer{
+    background-color: white;
     }
     
 }
