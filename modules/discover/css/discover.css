@@ -500,19 +500,24 @@
     opacity: 0.8;
 }
 @media screen and (max-width: 335px){
-    #vnt-container{
-       max-width: 330px;
-       min-width: 250px;
+   #vnt-container{
+       max-width: 335px;
+       min-width: 100px;
+    }
+    #vnt-header{
+        min-height: 300px;
+    }
+    #vnt-banner .slick-dots {
+        bottom: 20px;
     }
     #vnt-content{
-        margin-top: 65px;
-        width: 145%;
+        margin-top: 75px;
     }
     #vnt-header{
         min-height: 300px;
     }
     #vnt-footer{
-        width: 145%;
+        
     }
     #vnt-banner .slick-dots {
         bottom: 20px;

@@ -8,7 +8,7 @@ body{
     width: 100%;
 }
 #vnt-container{
-    width: 100%;
+    width: 120%;
     max-width: 2560px;
     margin: 0 auto;
 }
@@ -1108,6 +1108,7 @@ a:active{
     #menu-footer{
     background-color: white;
     }
+   
 
 }
 @media only screen and (max-width: 375px) and (min-width: 321px){
@@ -1181,10 +1182,11 @@ a:active{
 @media only screen and (max-width: 768px) and (min-width: 426px){
     #vnt-container {
         max-width: 768px;
+        width: 100%;
        
     }
     #vnt-wrapper{
-        width: 115%;
+        width: 100%;
     }
     .vnt-menu-tool {
         display: none;
@@ -1196,21 +1198,23 @@ a:active{
         display: none;
     }
      #vnt-main {
-        width: 70%;
+        width: 425px;
+        float: left;
+        margin-left: 10px;
     }
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
-        float: right;
-        width: 25%;
-        margin-left: 10px;
+        float: left;
+        width: 100%;
+        margin-left: 30px;
     }
     #menu-footer{
     background-color: white;
     }
     .fixed_menu {
-        right: 65px;
+        right: 5px;
     }
 
    
@@ -1238,14 +1242,15 @@ a:active{
     }
     /*am thuc*/
      #vnt-main {
+        float: left;
         width: 70%;
     }
     .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{
-        width: 25%;
-        float: right;
+        width: 30%;
+        float: left;
        
     }
     #menu-footer{
@@ -1269,15 +1274,18 @@ a:active{
     }
      /*am thuc*/
      #vnt-main {
+        float: left;
         width: 70%;
+    }
+    #vnt-sidebar{
+        width: 30%;
+        float: left;
+       
     }
     .grid_about{
         margin-left: 10px;
     }
-    #vnt-sidebar{
-       width: 25%;
-       float: right;
-    }
+   
      #menu-footer{
     background-color: white;
     }
@@ -1289,7 +1297,16 @@ a:active{
 @media only screen and (max-width: 1440px)  and (min-width: 1200px){
     #vnt-container {
         max-width: 1440px;
+    
        
+    }
+     #vnt-main {
+        float: left;
+        width: 70%;
+    }
+    #vnt-sidebar{
+        width: 30%;
+        float: left;
        
     }
      .topnav{
@@ -1298,7 +1315,12 @@ a:active{
     .grid_about .item .i-image{
      float: left;   
     }
-    
+     #menu-footer{
+    background-color: white;
+    }
+        .menu-footer {
+        background: white;
+    }
 }
 @media only screen and (max-width: 2560px) and (min-width: 1441px){
     #vnt-container {
@@ -1310,6 +1332,21 @@ a:active{
     }
     .grid_about .item .i-image{
      float: left;   
+    }
+     #vnt-main {
+        float: left;
+        width: 70%;
+    }
+    #vnt-sidebar{
+        width: 30%;
+        float: left;
+       
+    }
+     #menu-footer{
+    background-color: white;
+    }
+    .menu-footer {
+        background: white;
     }
     
 }

@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:bold;
 }
 
-.clear {clear: right; font-size: 0px; line-height: 0px; height:0;}
+.clear { font-size: 0px; line-height: 0px; height:0;}
 p {margin:0px;padding:5px 0px;}
 ol,ul {	list-style: none;}
 
@@ -240,4 +240,9 @@ button.btn:hover, button.btn:focus{
 .pagination a:visited.btnPage  {
 	color:#868686;
 	font-weight:bold;
+}
+@media only screen and (max-width: 335px){
+	.vnt-banner {
+		width: 145%;
+	}
 }
