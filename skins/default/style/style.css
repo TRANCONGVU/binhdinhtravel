@@ -1197,12 +1197,13 @@ a:active{
     .vnt-logo-right {
         display: none;
     }
+    
+    .grid_about{
+        margin-left: 10px;
+    }
      #vnt-main {
         width: 768px;
         float: left;
-        margin-left: 10px;
-    }
-    .grid_about{
         margin-left: 10px;
     }
     #vnt-sidebar{

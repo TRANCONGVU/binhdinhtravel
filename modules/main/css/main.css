@@ -340,7 +340,7 @@ body {
         width: 145%;
     }
     #vnt-banner{
-        width: 115%;
+        width: 100%;
     }
     #vnt-banner .slick-dots {
         bottom: 20px;
@@ -349,13 +349,13 @@ body {
         font-size: 10px;
     }
     .topnav{
-        width: 115%;    
+        width: 145%;    
     }
 
 } 
 @media screen and (max-width: 375px) and (min-width: 321px  ){
     #vnt-container{
-       max-width: 425px;
+       max-width: 375px;
        min-width: 321px;
     }
     #vnt-header{
@@ -371,7 +371,7 @@ body {
         font-size: 10px;
     }
     .vnt-news{
-        width: 118%;
+        width: 100%;
     }
 
 }
@@ -393,7 +393,7 @@ body {
         font-size: 10px;
     }
     .vnt-news{
-        width: 118%;
+        width: 100%;
     }
 
 }
