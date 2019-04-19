@@ -1198,7 +1198,7 @@ a:active{
         display: none;
     }
      #vnt-main {
-        width: 425px;
+        width: 768px;
         float: left;
         margin-left: 10px;
     }
@@ -1207,7 +1207,7 @@ a:active{
     }
     #vnt-sidebar{
         float: left;
-        width: 100%;
+        width: 768px;
         margin-left: 30px;
     }
     #menu-footer{
